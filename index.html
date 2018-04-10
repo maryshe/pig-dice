@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery3.3.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Pig-Dice Game</title>
+</head>
+
+<body>
+
+  <div class="start-menu container">
+    <div class="jumbotron">
+      <h1 class="page-header">Hurray! play Pig-Dice!</h1>
+      <div class="formDiv">
+        <form id="player-1">
+          <div id="form-group">
+            <label for="player1Name">Player 1 Name:</label>
+            <input class="player1Name form-control" type="text">
+          </div>
+        </form>
+        <form id="player-2">
+          <div class="form-group">
+            <label for="player2Name">Player 2 Name:</label>
+            <input required class="player2Name form-control" type="text">
+          </div>
+        </form>
+      </div>
+      <button id="start" class="btn-primary btn">Start</button>
+      <p class="desiner"><br>designer:</br>:<br>Maria Murathe</br>
+      </p>
+    </div>
+  </div>
+  <div class="player-console container">
+    <button id="newGame" class="btn-primary btn">Another_Game</button>
+    <div class="row">
+      <div class="col-md-6 box" id="boxOne">
+        <h2 class="page-header">Player 1: <span id = "player1Name"><span></h2>
+        <button id="player1-roll" class="btn-success btn">Roll</button>
+        <button id="player1-hold" class="btn-success btn">Hold</button>
+        <h2>Dice Roll: <span id="dieRollOne"></span></h2>
+        <p>Round Total: <span id="roundTotalOne"></span></p>
+        <p>Total Score: <span id="totalScoreOne"></span></p>
+      </div>
+
+      <div class="col-md-6 box" id="boxTwo">
+        <h2 class="page-header">Player 2: <span id = "player2Name"><span></h2>
+        <button id="player2-roll" class="btn-success btn">Roll</button>
+        <button id="player2-hold" class="btn-success btn">Hold</button>
+        <h2>Dice Roll: <span id="dieRollTwo"></span></h2>
+        <p>Round Total: <span id="roundTotalTwo"></span></p>
+        <p>Total Score: <span id="totalScoreTwo"></span></p>
+      </div>
+    </div>
+  </div>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

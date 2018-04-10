@@ -1,0 +1,39 @@
+.menu{
+background-image: url(/home/mary/Documents/pig-dice/img/pic.jpg);
+background-position: left;
+}
+.player-console {
+  display: 1;
+}
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.jumbotron{
+  text-align: center;
+  background-color:rgba(70, 100, 100,);
+  color:white;
+}
+.box{
+  text-align: justify;
+  background-color:rgba(70, 100, 100,);
+  outline:none;
+  border-radius: 9px;
+  width: 38%;
+}
+#boxOne{
+  margin-left: 4%;
+}
+#newGame{
+  margin-top: 20%;
+  margin-bottom: 12%;
+}
+.formDiv{
+  width: 50%;
+  margin-left: 25%;
+}
+.desiner{
+  margin-right: inherit;
+  border-width :thick;
+}
